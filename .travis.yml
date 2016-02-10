@@ -1,7 +1,4 @@
 language: java
-script: mvn verify javadoc:javadoc site:site
+script: mvn scalagen:main scalagen:test
 jdk:
   - oraclejdk7
-  - oraclejdk8
-  - openjdk7
-  - openjdk6
