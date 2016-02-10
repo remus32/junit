@@ -140,6 +140,11 @@
             http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
             -->
             <plugin>
+                <groupId>com.mysema.scalagen</groupId>
+                <artifactId>scalagen-maven-plugin</artifactId>
+                <version>0.2.2</version>
+            </plugin>
+            <plugin>
                 <!--
                 Checks that the version of user's maven installation is 3.0.4,
                 the JDK is 1.5+, no non-standard repositories are specified in
